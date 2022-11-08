@@ -22,7 +22,7 @@ To jsdb-conn.php files with different names can be used, with different encrypti
 
 ## JSDB code
 
-JSDB code is a specific kind of code that can be used to access the data from databases, JSDB code will be entered in functions to identify row(s) from the database.
+JSDB code is a specific kind of code that can be used to access the data from databases, JSDB example will be entered in functions to identify row(s) from the database.
 JSDB code is similar to JSON.
 JSDB code file will be found in the help folder
 
