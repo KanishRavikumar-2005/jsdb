@@ -13,4 +13,4 @@ To jsdb-conn.php files with different names can be used, with different encrypti
 
 ## Important details
 
-[+] Messing 
+[ ] Messing 
