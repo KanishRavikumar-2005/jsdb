@@ -13,4 +13,21 @@ To jsdb-conn.php files with different names can be used, with different encrypti
 
 ## Important details
 
-[ ] Messing 
+* Messing with any part of the database file will cause unfixable damage, it is recommended that bacup of data is taken often, Developer can take backup by using `get` function and writing it to a file.
+* Changing encryption values once databases is populated will destroy the database file, only change values before populating data
+* Keep database files and jsdb-conn.php file out of  reach from anyone you dont trust
+* It is recommended to change name of jsdb-conn.php for security reasons
+* Do not input any code in jsdb-conn.php that will echo out something, or redirect page, as it will be applied on pages it is called.
+* Do not reveal encryption values to anyone
+
+## JSDB code
+
+JSDB code is a specific kind of code that can be used to access the data from databases, JSDB code will be entered in functions to identify row(s) from the database.
+JSDB code is similar to JSON.
+JSDB code file will be found in the help folder
+
+## Who is it useful most for
+
+For people learning developing websites with a backend, hosting providers have a database limit for the free version users or users of a selected plan, but since JSDB is stored as file, there is no limit other than the storage space, and since its encrypted it takes less space depending on the data inputed, there is no row limit in the database. JSDB can also used to store data for releasing websites too.
+
+
