@@ -30,4 +30,7 @@ JSDB code file will be found in the help folder
 
 For people learning developing websites with a backend, hosting providers have a database limit for the free version users or users of a selected plan, but since JSDB is stored as file, there is no limit other than the storage space, and since its encrypted it takes less space depending on the data inputed, there is no row limit in the database. JSDB can also used to store data for releasing websites too.
 
+## Errors you may face
 
+The most common error discovered is the 'NextLineError' Which is caused by passing a string which as a nextline in it. This error can be fixed by replacing
+`"\r\n" as <<_rn_>>` and `"\n" as <<_n_>>`, both `<<_rn_>>` and `<<_n_>>` can be written differently by the programmer, theyre like variables. The the developer can store this string in the database and be able to replace them with `<br>` when displaying them from the database.
