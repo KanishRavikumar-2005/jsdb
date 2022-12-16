@@ -35,3 +35,6 @@ For people learning developing websites with a backend, hosting providers have a
 
 The most common error discovered is the 'NextLineError' Which is caused by passing a string which as a nextline in it. This error can be fixed by replacing
 `"\r\n" as <<_rn_>>` and `"\n" as <<_n_>>`, both `<<_rn_>>` and `<<_n_>>` can be written differently by the programmer, theyre like variables. The the developer can store this string in the database and be able to replace them with `<br>` when displaying them from the database.
+
+## Where is the script code?
+The source codes for jsdb is stored in the source folder, for each JSDB language file
